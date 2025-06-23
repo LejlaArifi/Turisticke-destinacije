@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    color: black;
+}
+
+header,
+footer {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 20px 0;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+.destinacija {
+    background: white;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px gray;
+}
+
+.destinacija img {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+
+.destinacija h2 {
+    margin-top: 0;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: blue;
+}
